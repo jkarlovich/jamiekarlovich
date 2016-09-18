@@ -633,37 +633,43 @@ p#normal{
 
   .info{
     border: none;
-    width: 200px;
-    margin: -140px 0 0 200px;
+    width: 240px;
+    margin: -140px 0 0 33%;
   }
+
   .info h4{
     text-align: left;
   }
 
   .experience{
     margin: -140px 0 0 0;
-    width: 100px;
+    width: 148px;
   }
 }
 
 @media(max-width: 684px){
   .technologies{
-    min-width: 148px;
+    width: 84px;
     margin: 0 0 0 8%;
+    padding: 0 0 8px 16px;
   }
 
   .info{
-    margin: -140px 0 0 60%;
+    margin: -140px 0 0 42%;
+    width: 320px;
+    padding: auto 0 0px 0;
   }
 
   .experience{
     margin: 0px auto 0 8%;
+    width: 400px;
   }
 
   #branding{
     width: 100%;
     margin: 21px auto;
   }
+
   #branding p{
     font-size: 20px;
     width: 90%;
@@ -687,7 +693,7 @@ p#normal{
   }
 }
 
-@media(max-width: 420px){
+@media(max-width: 484px){
   header h1, #dance h1 {
     font-size: 20px;
   }
@@ -751,17 +757,20 @@ p#normal{
   .info{
     border: none;
     margin: -260px auto 0 auto;
+    width: 100%;
+    padding: 0 0 8px 0;
   }
   .info h4{
     text-align: center;
   }
   .technologies{
     width: 100px;
-    margin: 148px auto 0 0;
-    padding: 0;
+    margin: 148px auto 0 auto;
+    padding: 8px 0 8px 0;
   }
   .experience{
-    margin: -130px 0 0 auto;
-    width: 148px;
+    margin: 8px auto 0 auto;
+    width: 240px;
+    padding: 8px 0 8px 4%;
   }
 }
