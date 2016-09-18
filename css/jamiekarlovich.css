@@ -1,0 +1,209 @@
+@import url(http://www.1001fonts.com/monitorica-font.html);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*-----------------------------main page--------------------------------------*/
+#main{
+    background:url("../images/dance/Coverweb.png");
+    background-position: 0% 48%;
+    background-color:black;
+}
+
+#main h1{
+  height:50%;
+  margin:0 20px 0 0;
+  padding:88px 48px 0 0;
+  text-align:right;
+  font-size: 100px;
+  font-family:'Quicksand', sans-serif;
+  font-weight:100;
+  color:white;
+}
+
+#main li a{
+  text-decoration:none;
+  color:white;
+}
+
+#main li a:hover{
+  color:grey;
+}
+
+#main footer h4 a{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  color:white;
+  font-weight: 100;
+  text-decoration:none;
+}
+
+#main footer h4 a:hover{
+  color: grey;
+}
+/*--------------------------------end main page-------------------------------*/
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+  width:100%;
+  height:18%;
+  margin:0;
+  padding:0;
+  display:block;
+}
+
+h1{
+  height:50%;
+  margin:0 20px 0 0;
+  padding:20px 48px 0 0;
+  text-align:right;
+  font-size: 100px;
+  font-family:'Quicksand', sans-serif;
+  font-weight:100;
+}
+
+nav{
+  width:100%;
+  height:50%;
+}
+
+ul{
+  list-style-type:none;
+  text-align:right;
+  padding: 48px 48px 0 0;
+  margin:0;
+}
+
+li{padding: 4px 0px;
+margin: 20px 8px;
+padding: 0px;
+font-size: 20px;
+font-weight: 100;
+display:inline-block;
+font-family: "Monitorica Regular", sans-serif;
+text-align:right;
+}
+
+li a{
+  text-decoration:none;
+  color:black;
+}
+
+li a:hover{
+  color:grey;
+}
+
+#content{
+  height:77%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+footer{
+    height:5%;
+    width:100%;
+    margin: 0;
+    padding:0;
+}
+
+footer h4 {
+  text-align:right;
+  font-family: "Monitorica Regular", sans-serif;
+  margin: 0 16%;
+}
+
+footer h4 a{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  color:black;
+  font-weight: 100;
+  text-decoration:none;
+}
+
+footer h4 a:hover{
+  color: grey;
+}
+
+/*----------------------About-----------------------------------------------*/
+#photoright {
+  height: 80%;
+  width: 35%;
+  background: url("../images/dance/headshot.jpg") no-repeat;
+  background-size: contain;
+  background-position: 0% 0%;
+  float:right;
+  margin: 6% 0 0 0;
+}
+
+#textleft{
+  height: 80%;
+  width:54%;
+  float:left;
+  margin: 6% 0 0 10%;
+  padding:0 0 0 0;
+}
+
+/*--------------------------End About---------------------------------------*/
+
+/*-----------------------------Uncoded Pages---------------------------------*/
+#uncoded{
+  text-align:center;
+  height:50%;
+  margin: 10% 0 0 10%;
+  padding: 0;
+}
+
+#uncoded p{
+  font-size:4em;
+}
+
+p#normal{
+  font-size: 1.5em;
+  color: white;
+  width:50%;
+  margin: 0 0 0 42%;
+  font-family:'Quicksand', sans-serif;
+  font-weight:100;
+}
+/*--------------------------------End Uncoded Pages--------------------------*/
+/*------------------------------Contact---------------------------------------*/
+#contactBackground{
+  background:url("../images/dance/HullBuildingCropped.png") no-repeat;
+  background-size:cover;
+}
+#contactBackground footer h4 a{
+  color:white;
+}
+
+#contactBackground footer h4 a:hover{
+  color:grey;
+}
+
+#contactBackground h1{
+  color:white;
+}
+
+#contactBackground li a{
+  text-decoration:none;
+  color:white;
+}
+#contactBackground li a:hover{
+  color:grey;
+}

@@ -1,0 +1,37 @@
+Jamie Karlovich				   	           Portfolio: www.jamiekarlovich.com
+(206)419-0946                                                            	         			Github: jkarlovich.github.io
+jamierkarlovich@gmail.com
+
+Summary
+Full-stack web developer with a good eye for design, analytical mind, and a maker of products, things, and ideas.  Enjoys breaking down problems to their smallest bits to understand how they work and find creative solutions.  Passionate and inspired by visual aesthetics, good design, and clean, precise code.  Driven to create interactive products shaped around human experience and expression as well as intuitive and efficient functionality.
+
+Skills:  Angular, Javascript, Node.js, Express, Ruby, Rails, Sequel, Sequelize, Mongo, Mongoose, CSS, HTML, Bootstrap, Jquery, React
+
+Projects
+- OnTheTown - developed an app to plan an evening around the location of a show you are attending.  Used 
+  express, node.js, and css with public api resources.
+- 2048 - recreated the game 2048 with the use of javascript, jquery, html, and css.
+- comingUP - collaborated in a small group to create a platform for General Assembly’s program to help  
+  students get ready for their job search using Ruby on Rails.
+- WikiWhat - An app to compare the revisions on Wikipedia.
+
+Experience
+
+General Assembly - Seattle, WA May 2016-August 2016 
+Hit the ground running in a fast-paced learning environment diving into Javascript, Jquery, HTML, CSS, SCSS, Express, Node, Ruby, Rails, Sequel, Sequelize, Postgres, Mongo, Mongoose, Angular, and React.  Created 1 front-end and 3 full-stack projects as well as participated in 3 hackathons, winning one of the three.
+
+Administrative Assistant, Steven Prince, DMD - Seattle, WA - 2009-Present
+Developed and maintained efficient organizational systems, thrived in a fast-paced environment, analyzed complex schedules, and made patients feel comfortable.
+
+Office Manager, Michelle Dirkse Interior Design - Seattle, WA - 2014-2016
+Used AutoCAD to draw floor plans, communicated with multiple vendors and managed trade accounts and contact lists.
+
+Choreographer/Dance Instructor, Cornish College of the Arts - Seattle, WA - 2013-present
+Collaborated and managed other artists to produce a professional and polished final product.  Developed challenging but reachable lesson plans to help dancers hone their skills.  Shaped space with the use of weight, line, flow, balance, rhythm, and force.  
+
+Other Skills: AutoCAD, Sketchup, Photoshop, Illustrator, InDesign, Choreographer, Educator
+
+Education
+Cornish College of the Arts, Seattle, WA
+Interior Architecture Course - Spring 2016
+Graduated summa cum laude with a Bachelors of Fine Arts in Dance, 2006

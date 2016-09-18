@@ -1,0 +1,767 @@
+@import url(http://www.1001fonts.com/monitorica-font.html);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*-----------------------------main page--------------------------------------*/
+#branding{
+  width: 600px;
+  margin: 84px auto 0 auto;
+  font-size: 28px;
+  text-align: justify;
+}
+
+#main footer{
+  background-color: white;
+}
+
+/*--------------------------------end main page-------------------------------*/
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.stickyfooter{
+  min-height: 100%;
+  position:relative;
+}
+
+header{
+  width:100%;
+  margin:0 0 24px 0;
+  padding:0;
+  display:block;
+}
+
+h1{
+  margin:0;
+  padding:20px 48px 0 0;
+  text-align:right;
+  font-size: 100px;
+  font-family:'Quicksand', sans-serif;
+  font-weight:100;
+}
+
+nav{
+  width:100%;
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  list-style-type:none;
+  text-align:right;
+  padding: 0 48px 0 0;
+  margin:0;
+}
+
+li{
+padding: 0px 0px;
+margin: 4px 8px;
+padding: 0px;
+font-size: 20px;
+font-weight: 100;
+display:inline-block;
+font-family: "Monitorica Regular", sans-serif;
+text-align:right;
+}
+
+li a{
+  text-decoration:none;
+  color:black;
+}
+
+ a.here {
+  color: rosybrown;
+}
+
+li a:hover{
+  color:grey;
+}
+
+#content{
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+footer{
+    width:100%;
+    margin: 21px 0 0 0;
+    padding:8px 0;
+    position:absolute;
+    bottom:0;
+}
+
+footer h4 {
+  text-align:right;
+  font-family: "Monitorica Regular", sans-serif;
+  margin: 0 16%;
+}
+
+footer h4 a{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  color:black;
+  font-weight: 100;
+  text-decoration:none;
+}
+
+footer h4 a:hover{
+  color: rosybrown;
+}
+
+/*---------------------------Dance------------------------------------------*/
+.dance{
+  background:url("../images/dance/Coverweb.png");
+  background-position: 0px -70px;
+  background-color:black;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+}
+
+.gradient {
+  background: linear-gradient(180deg, black, grey 48%, white);
+  height: 1600px;
+  display:block;
+}
+
+.about{
+margin: -1600px 0 1600px 0;
+width: 100%;
+display:flex;
+align-items: space-between;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.bio{
+  min-width: 300px;
+  width: 60%;
+  color:white;
+  text-align: right;
+}
+
+.photoright{
+    height: 400px;
+    width: 284px;
+    margin: 0 0 0 40px;
+    background: url("../images/dance/headshot.jpg") no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+  }
+
+#dance {
+  padding: 0 0 48px 0;
+}
+
+#dance h1{
+  font-size: 100px;
+  font-family:'Quicksand', sans-serif;
+  font-weight:100;
+  color:white;
+}
+
+#dance li a{
+  text-decoration:none;
+  color:white;
+}
+
+#dance li a.here {
+  color: rosybrown;
+}
+
+#dance li a:hover{
+  color:grey;
+}
+
+#dance footer{
+  background-color: black;
+}
+
+#dance footer h4 a{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  color:white;
+  font-weight: 100;
+  text-decoration:none;
+}
+
+#dance footer h4 a:hover{
+  color: grey;
+}
+
+.footer-white{
+color: white;
+}
+/*---------------------------------Web------------------------------------------*/
+
+#web .content  {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 48px 0;
+}
+
+.webStory {
+  position: relative;
+  width: 68%;
+  min-width: 400px
+  margin: 0;
+  padding: 0 16px 8px 0;
+  border-right: 1px solid grey;
+}
+.webStory p {
+  text-indent: 48px;
+  margin: 0px 0 0 auto;
+  /width: 74%;
+  max-width: 600px;
+  font-family: "Monitorica Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: right;
+
+}
+.qualifications {
+  display:flex;
+  flex-direction: column;
+  background-color:lightgrey;
+  align-content:center;
+  margin: 0 0 84px 0;
+  width: 100%;
+  padding: 40px;
+}
+
+
+.info {
+  margin: 0px;
+  width:68%;
+  min-width: 200px;
+  padding: 8px 16px 0 0;
+  border-right: 1px solid grey;
+}
+
+.info h4, .info h4 a {
+  font-size: 16px;
+  color: rosybrown;
+  text-decoration:none;
+  margin: 0;
+  font-weight: 100;
+  font-family: "Monitorica Regular", sans-serif;
+  text-align: right;
+}
+
+.info h4 a:hover {
+  color:#666699;
+}
+
+.qtop{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-end;
+  /*justify-content: space-around;*/
+}
+
+.qbottom{
+  margin: 0;
+  padding: 0 0 0 0;
+  display:flex;
+  flex-direction:row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.technologies {
+  width: 20%;
+  min-width: 200px;
+  margin: 0 0 0 0;
+  padding: 0 0 8px 16px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.experience{
+  margin: 0 0 0 0;
+  padding: 8px 0 0 16px;
+  width: 20%;
+
+}
+
+.qtop h4, .qbottom h4{
+  font-size: 20px;
+  width: 100%;
+  color: #666699;
+  margin: 0;
+}
+
+.qtop ul, .qbottom ul{
+  text-align:left;
+  margin: 0;
+  padding: 0;
+}
+.qtop ul li, .qbottom ul li{
+  font-size: 12px;
+  text-align:left;
+  margin: 0;
+  width: 100%;
+}
+
+.portfolio {
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+}
+
+.project-row{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding: 2%;
+  border: 1px solid #CCCCE5;
+  margin: 4px;
+}
+
+
+.screenshot {
+  height: 248px;
+  width: 484px;
+  box-shadow: 0 0 20px grey;
+  position:relative;
+}
+
+.overlay{
+  height: 250px;
+  width: 486px;
+  margin: 0 auto;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  bottom: -1px;
+  right: -1px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  -mos-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.transin{
+  -mos-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  height: 250px;
+  width: 486px;
+  position:absolute;
+  opacity: 0;
+  bottom: -1px;
+  right: -1px;
+  z-index: 1;
+}
+/*.screenshot:hover > .overlay {
+  opacity: 1;
+}*/
+
+.show {
+  opacity: 0;
+  -mos-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.fa-times-circle {
+  color: white;
+  position: relative;
+  text-align: right;
+  bottom: 4px;
+  right: 8px;
+}
+#twenty{
+  background:url("../images/web_development/2048.png");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid lightgrey;
+}
+#onTheTown{
+  background:url("../images/web_development/on_the_town.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#comingUp{
+  background:url("../images/web_development/coming_Up.png");
+  background-size: cover;
+  background-position:center;
+  border: 1px solid lightgrey;
+}
+
+#wikiwhat{
+  background:url("../images/web_development/wikiwhat.png");
+  background-size: cover;
+  background-position:center;
+  border: 1px solid lightgrey;
+}
+
+.project p, .project h2 {
+  width: 100%;
+  font-family: "Monitorica Regular", sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  text-align: center;
+}
+
+.project p {
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.project h6{
+  font-size: 13px;
+  color:white;
+  margin: 0;
+  font-family: "Monitorica Regular", sans-serif;
+  font-weight: 100;
+  text-align:center;
+}
+.project h4{
+  font-size: 13px;
+  font-family: "Monitorica Regular", sans-serif;
+  text-align: center;
+  color:white;
+  margin: 8px auto 21px auto;
+  width: 84%;
+}
+i.fa-info-circle{
+  position: relative;
+  left: 8px;
+  top: 4px;
+}
+
+a:-webkit-any-link{
+  text-decoration:none;
+}
+
+.project h2{
+  color: white;
+  margin:0;
+  padding:21px 0 8px 0;
+}
+
+.project h4 a{
+  color: teal;
+  text-decoration: none;
+}
+
+.project h4 a: hover {
+  color: black;
+}
+
+.links {
+  display:flex;
+  width: 100%;
+  padding:0;
+  margin: -67px auto 0 auto;
+}
+
+
+
+i.fa-circle{
+  font-size: 4px;
+  position: relative;
+  bottom: 2px;
+  color:white;
+}
+
+.project .links h4 {
+  width: auto;
+  padding: 0;
+}
+
+.project h4 a:hover{
+  color: grey;
+}
+.project h2 {
+  font-size: 100;
+  font-weight: 200;
+  text-align:center;
+  font-family:'Quicksand', sans-serif;
+}
+
+#web footer{
+  margin: 20px 0 0 0;
+  background-color:lightgrey;
+}
+/*----------------------About-----------------------------------------------*/
+#photoright {
+  height: 80%;
+  width: 35%;
+  background: url("../images/dance/headshot.jpg") no-repeat;
+  background-size: contain;
+  background-position: 0% 0%;
+  float:right;
+  margin: 6% 0 0 0;
+}
+
+#textleft{
+  height: 80%;
+  width:54%;
+  float:left;
+  margin: 6% 4% 0 10%;
+  padding:0 0 0 0;
+}
+
+/*--------------------------End About---------------------------------------*/
+
+/*-----------------------------Uncoded Pages---------------------------------*/
+#uncoded{
+  text-align:center;
+  height: 321px;
+  margin: 10% 0 0 10%;
+  padding: 0;
+}
+
+#uncoded p{
+  font-size:4em;
+}
+
+p#normal{
+  font-size: 1.5em;
+  color: white;
+  width:50%;
+  margin: 0 0 0 42%;
+  font-family:'Quicksand', sans-serif;
+  font-weight:100;
+}
+/*--------------------------------End Uncoded Pages--------------------------*/
+/*------------------------------Contact---------------------------------------*/
+#contactBackground{
+  background:url("../images/dance/HullBuildingCropped.png") no-repeat;
+  background-size:cover;
+  min-height: 100%;
+}
+#contactBackground footer h4 a{
+  color:white;
+
+}
+
+#contactBackground footer h4 a:hover{
+  color:rosybrown;
+}
+
+#contactBackground h1{
+  color:white;
+}
+
+#contactBackground li a{
+  text-decoration:none;
+  color:white;
+}
+
+#contactBackground li a.here{
+  color: rosybrown;
+}
+
+#contactBackground li a:hover{
+  color:grey;
+}
+
+@media(max-width: 860px) {
+  header h1, #dance h1{
+    font-size: 60px;
+  }
+  .bio{
+    text-align: justify;
+  }
+}
+@media(max-width: 711px){
+  header h1, #dance h1{
+    font-size: 40px;
+  }
+  .dance{
+    background-size: 800px;
+    background-position: -70px -45px;
+  }
+
+  .about{
+    margin: -1884px 0 0 0;
+  }
+
+  .bio{
+    width: 84%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .photoright{
+    margin: 0 auto;
+  }
+  .webStory{
+    border: none;
+    width: 100%;
+    margin: 0 auto 21px auto;
+  }
+
+  .info{
+    border: none;
+    width: 200px;
+    margin: -140px 0 0 200px;
+  }
+  .info h4{
+    text-align: left;
+  }
+
+  .experience{
+    margin: -140px 0 0 0;
+    width: 100px;
+  }
+}
+
+@media(max-width: 684px){
+  .technologies{
+    min-width: 148px;
+    margin: 0 0 0 8%;
+  }
+
+  .info{
+    margin: -140px 0 0 60%;
+  }
+
+  .experience{
+    margin: 0px auto 0 8%;
+  }
+
+  #branding{
+    width: 100%;
+    margin: 21px auto;
+  }
+  #branding p{
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  header nav ul li, #dance .dance nav ul li {
+    font-size: 16px;
+  }
+  .overlay h2 {
+    font-size: 14px;
+    margin: 0 auto 21px auto;
+  }
+
+  #close2{
+    position: relative;
+    bottom: 21px;
+  }
+
+  .overlay h4, .overlay h6, .overlay .logins, .overlay p{
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 420px){
+  header h1, #dance h1 {
+    font-size: 20px;
+  }
+
+  .dance {
+    background-size: 800px;
+    background-position: -70px -70px;
+  }
+
+  .about{
+    margin: -2000px 0 0 0;
+    padding:0;
+    width: 100%;
+  }
+
+  .bio{
+    width: 84%;
+    text-align: justify;
+    margin: 0;
+  }
+
+  .photoright{
+    margin: 0 auto;
+  }
+  header nav ul li, #dance .dance nav ul li {
+    font-size: 16px;
+  }
+  .screenshot {
+    height: 200px;
+    width: 348px;
+  }
+  .project {
+    border: none;
+  }
+  .overlay{
+    height: 202px;
+    width: 350px;
+  }
+  .qualifications{
+    width: 100%;
+    margin: 0 auto;
+    padding: 21px 40px;
+  }
+
+  .webStory{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .webStory p{
+    text-align: justify;
+    margin: 0 auto;
+  }
+
+  p#normal{
+    color: black;
+    font-weight: 700;
+  }
+  .info{
+    border: none;
+    margin: -260px auto 0 auto;
+  }
+  .info h4{
+    text-align: center;
+  }
+  .technologies{
+    width: 100px;
+    margin: 148px auto 0 0;
+    padding: 0;
+  }
+  .experience{
+    margin: -130px 0 0 auto;
+    width: 148px;
+  }
+}
