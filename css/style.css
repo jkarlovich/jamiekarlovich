@@ -124,12 +124,15 @@ footer h4 a:hover{
 
 /*---------------------------Dance------------------------------------------*/
 .dance{
-  background:url("../images/dance/Coverweb.png");
-  background-position: 0px -70px;
   background-color:black;
   background-repeat: no-repeat;
-  height: 800px;
   width: 100%;
+}
+
+.dancestickyfooter {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .gradient {
@@ -139,19 +142,31 @@ footer h4 a:hover{
 }
 
 .about{
-margin: -1600px 0 1600px 0;
+padding-top: 48px;
 width: 100%;
 display:flex;
-align-items: space-between;
+flex-direction: row;
+align-items: center;
 justify-content: center;
+background-color: black;  
 flex-wrap: wrap;
+}
+
+.image-container {
+  width: 40%;
+}
+
+.image {
+  width: 100%;
 }
 
 .bio{
   min-width: 300px;
   width: 60%;
+  padding-right: 48px;
   color:white;
   text-align: right;
+  align-self: flex-start;
 }
 
 .photoright{
@@ -165,7 +180,9 @@ flex-wrap: wrap;
   }
 
 #dance {
-  padding: 0 0 48px 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 #dance h1{
@@ -192,6 +209,11 @@ flex-wrap: wrap;
   background-color: black;
 }
 
+.emptyBox { 
+  background-color: black;
+  flex-grow:1;
+}
+
 #dance footer h4 a{
   height: 100%;
   width: 100%;
@@ -209,6 +231,59 @@ flex-wrap: wrap;
 .footer-white{
 color: white;
 }
+
+.footerDanceFooter {
+  background-color: black;
+  position: relative;
+  margin: 0;
+}
+
+.danceFooter {
+  color: white;
+}
+
+#dance-gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.gallary {
+  /* width: 25%; */
+  height: 600px;
+  margin: 10px;
+}
+
+.break {
+  width: 100%;
+}
+
+/*-----------------------------------Design---------------------------------*/
+.design-gallary-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-top: 48px;
+}
+.design-gallary {
+  height: 400px;
+  margin: 10px;
+}
+.drawings {
+  margin: 10px 40px;
+}
+
+footer.design {
+  position: relative;
+}
+
+
 /*---------------------------------Web------------------------------------------*/
 
 #web .content  {
@@ -220,7 +295,7 @@ color: white;
 .webStory {
   position: relative;
   width: 68%;
-  min-width: 400px
+  min-width: 400px;
   margin: 0;
   padding: 0 16px 8px 0;
   border-right: 1px solid grey;
@@ -228,7 +303,7 @@ color: white;
 .webStory p {
   text-indent: 48px;
   margin: 0px 0 0 auto;
-  /width: 74%;
+  width: 74%;
   max-width: 600px;
   font-family: "Monitorica Regular", sans-serif;
   font-size: 16px;
@@ -482,7 +557,7 @@ a:-webkit-any-link{
   text-decoration: none;
 }
 
-.project h4 a: hover {
+.project h4 a:hover {
   color: black;
 }
 
@@ -612,10 +687,6 @@ p#normal{
     background-position: -70px -45px;
   }
 
-  .about{
-    margin: -1884px 0 0 0;
-  }
-
   .bio{
     width: 84%;
     margin: 0 auto;
@@ -701,12 +772,6 @@ p#normal{
   .dance {
     background-size: 800px;
     background-position: -70px -70px;
-  }
-
-  .about{
-    margin: -2000px 0 0 0;
-    padding:0;
-    width: 100%;
   }
 
   .bio{
